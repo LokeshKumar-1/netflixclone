@@ -1,0 +1,286 @@
+.movieItem-parent-container {
+  width: 100vw;
+  height: 1451px;
+  background-color: #181818;
+}
+
+.MI-banner-parent-container {
+  height: 501px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.MI-banner-content-section {
+  width: fit-content;
+  height: 398px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 164px;
+}
+
+.MI-banner-title {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: HK Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.MI-banner-time-contentType-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 14px;
+  width: fit-content;
+}
+.MI-banner-movieTime {
+  color: var(--General-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 16px;
+}
+
+.MI-type-of-content {
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-flex;
+  padding: 2px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  margin-right: 16px;
+}
+
+.MI-banner-released-year {
+  color: var(--General-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.MI-banner-overview {
+  color: var(--General-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: HK Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  width: 632px;
+  position: relative;
+  top: 24px;
+}
+
+.MI-banner-btn {
+  padding: 8px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #fff;
+  height: 36px;
+  width: 64px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  top: 32px;
+  color: var(--General-Dark-blue, #171f46);
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 114.286% */
+  font-variant: all-small-caps;
+  letter-spacing: 0.7px;
+}
+.selected-movie-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0 50px 0 0;
+  margin-left: 165px;
+  top: 24px;
+}
+.details-title {
+  color: var(--Light-blue-gray-400, #94a3b8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+.genre-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.detail-item {
+  color: var(--General-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.inner-container {
+  margin-top: 12px;
+}
+
+.similar-movies-banner {
+  margin-left: 165px;
+  position: relative;
+  top: 58px;
+}
+.similar-title {
+  color: var(--General-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.similar-list-container {
+  height: 600px;
+  width: 1300px;
+  list-style-type: none;
+  padding: 0px 20px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  margin-top: 20px;
+}
+
+.similar-list-image-item {
+  width: 255px;
+  height: 170px;
+  border-radius: 8px;
+  margin: 24px 24px 0 0;
+}
+
+.movieDetails-loader-container {
+  width: 1440px;
+  height: 600px;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .movieItem-parent-container {
+    width: 360px;
+    height: 1150px;
+    background: #131313;
+  }
+  .MI-banner-parent-container {
+    width: 360px;
+    height: 450px;
+    flex-shrink: 0;
+  }
+  .MI-banner-content-section {
+    left: 32px;
+  }
+  .MI-banner-title {
+    color: var(--General-White, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: HK Grotesk;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .MI-banner-movieTime {
+    color: var(--General-White, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .MI-banner-released-year {
+    color: var(--General-White, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .MI-banner-overview {
+    width: 296px;
+    color: #fff;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .selected-movie-details {
+    margin-left: 30px;
+  }
+  .details-title {
+    color: var(--Light-blue-gray-500, #64748b);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+  }
+  .detail-item {
+    color: var(--General-White, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: HK Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .inner-container {
+    margin-top: 4px;
+  }
+  .similar-movies-banner {
+    margin-left: 30px;
+  }
+  .similar-list-container {
+    height: 300px;
+    margin-top: 10px;
+    width: 320px;
+  }
+  .similar-list-image-item {
+    width: 90px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin: 15px 10px 0 0;
+  }
+  .movieDetails-loader-container {
+    width: 360px;
+  }
+}

@@ -1,0 +1,212 @@
+.Home-parent-container {
+  width: 100%;
+  height: 1456px;
+  background: #131313;
+  overflow: hidden;
+}
+
+.slideBar-container {
+  position: relative;
+  top: 48px;
+  left: 165px;
+}
+
+.trending-title {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: fit-content;
+  position: relative;
+  top: 48px;
+  left: 165px;
+}
+
+.originals-title {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 32px;
+  width: fit-content;
+  position: relative;
+  top: 48px;
+  left: 165px;
+}
+
+.loader-for-slideBar {
+  width: 1109px;
+  height: 170px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 166px;
+  top: 60px;
+  padding-top: 10px;
+}
+
+/* .loader-container {
+  
+} */
+
+.loader-for-Banner {
+  width: 1109px;
+  height: 466px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #0d0d0d;
+  position: relative;
+  top: 32px;
+  left: 166px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.warningIcon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #d81f26;
+  margin: 0px;
+  padding: 0px;
+}
+
+.failure-para {
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tryAgain-btn {
+  display: flex;
+  padding: 4px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #fff;
+  position: relative;
+  top: 25px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  color: var(--general-dark-blue, #171f46);
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .Home-parent-container {
+    width: 360px;
+    height: 850px;
+  }
+
+  .slideBar-container {
+    position: relative;
+    top: 24px;
+    left: 32px;
+    max-width: 360px;
+  }
+
+  .trending-title {
+    color: var(--general-white, #fff);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 34px;
+    left: 32px;
+  }
+  .originals-title {
+    color: var(--general-white, #fff);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 24px;
+    left: 32px;
+  }
+  .loader-for-Banner {
+    width: 296px;
+    height: 213px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #0d0d0d;
+    position: relative;
+    top: 14px;
+    left: 32px;
+  }
+  .loader-for-slideBar {
+    width: 296px;
+    height: 90px;
+    flex-shrink: 0;
+    position: relative;
+    top: 32px;
+    left: 32px;
+  }
+  .warningIcon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .failure-para {
+    color: #fff;
+    font-family: HK Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    top: 4px;
+  }
+  .tryAgain-btn {
+    height: 20px;
+    width: 80px;
+    display: flex;
+    padding: 4px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: var(--general-dark-blue, #171f46);
+    font-family: HK Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    position: relative;
+    top: 12px;
+  }
+}

@@ -1,0 +1,81 @@
+.NF-parent-container {
+  width: 1440px;
+  height: 1024px;
+  flex-shrink: 0;
+  background-image: url("https://res.cloudinary.com/dm9htjdeq/image/upload/v1702731150/notFoundImage_bwemw3.svg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NF-title {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: HK Grotesk;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.NF-para {
+  color: #fff;
+  text-align: center;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 610px;
+  margin-top: 32px;
+}
+
+.NF-btn {
+  height: 50px;
+  width: 120px;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  color: var(--General-Dark-blue, #171f46);
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 44px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .NF-parent-container {
+    width: 360px;
+    height: 640px;
+    flex-shrink: 0;
+  }
+  .NF-title {
+    color: #fff;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: HK Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .NF-para {
+    color: #fff;
+    text-align: center;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 296px;
+  }
+  .NF-btn {
+    height: 30px;
+    width: 90px;
+  }
+}

@@ -1,0 +1,24 @@
+.slider-parent-container {
+  width: 80%;
+  margin-top: 24px;
+}
+
+.slider-images {
+  width: 254px;
+  height: 180px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+  .slider-parent-container {
+    width:80%;
+    margin-top: 15px;
+  }
+
+  .slider-images {
+    width: 90px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+}

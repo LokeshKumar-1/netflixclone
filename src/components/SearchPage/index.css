@@ -1,0 +1,82 @@
+.searchPage-parent-container {
+  width: 1440px;
+  height: 1024px;
+  background-color: #181818;
+}
+
+.search-page-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 166px;
+  height: 750px;
+  display: flex;
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+
+.search-page-result-item {
+  width: 255px;
+  height: 170px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  margin: 32px 30px 0 0;
+}
+
+.search-page-failure-and-loader-container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-page-failure-image {
+  width: 451.731px;
+  height: 235.767px;
+  flex-shrink: 0;
+}
+
+.search-page-failure-err-msg {
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .searchPage-parent-container {
+    width: 360px;
+    height: 680px;
+    background-color: #131313;
+  }
+  .search-page-list-container {
+    margin-left: 32px;
+    height: 450px;
+  }
+  .search-page-result-item {
+    width: 90px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-right: 13px;
+    margin-top: 24px;
+  }
+  .search-page-failure-image {
+    width: 187.049px;
+    height: 106.981px;
+    flex-shrink: 0;
+  }
+  .search-page-failure-err-msg {
+    width: 296px;
+    color: #fff;
+    text-align: center;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+}

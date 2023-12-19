@@ -1,0 +1,57 @@
+.contact-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 96px;
+}
+
+.social-logos-container {
+  display: flex;
+  align-items: center;
+}
+
+.logos {
+  color: #fff;
+  text-align: center;
+  font-family: Font Awesome 5 Brands;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 20px;
+}
+
+.contactUs-text {
+  color: #fff;
+  position: relative;
+  top: 16px;
+  padding-bottom: 64px;
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+@media screen and (max-width: 767px) {
+  .logos {
+    color: #fff;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-right: 10px;
+  }
+  .contactUs-text {
+    color: #fff;
+    font-family: HK Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+  }
+}
